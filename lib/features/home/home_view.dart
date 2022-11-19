@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:stacked/stacked.dart';
 import 'package:workout_task/core/status.dart';
 import 'package:workout_task/core/utils/palette.dart';
@@ -31,6 +30,7 @@ class _HomeViewState extends State<HomeView> {
       appBar: AppBar(
         title: Text(
           "Workout List View",
+          key: const Key("id-key"),
           style: TextStyle(
             fontSize: SizeMg.text(20),
             fontWeight: FontWeight.w600,

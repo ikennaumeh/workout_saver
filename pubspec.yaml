@@ -37,7 +37,6 @@ dependencies:
   stacked: ^3.0.0
   stacked_services: ^0.9.5
   logger: ^1.1.0
-  jiffy: ^5.0.0
   google_fonts: ^3.0.1
   flutter_screenutil: ^5.5.4
   sqflite: ^2.0.0+3
