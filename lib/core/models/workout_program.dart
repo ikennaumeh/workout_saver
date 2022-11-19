@@ -7,4 +7,16 @@ class WorkoutProgram{
   String toString() {
     return name;
   }
+
+  @override
+  bool operator ==(Object other) {
+    if(identical(this, other)) return true;
+
+    return other is WorkoutProgram && other.name == name && other.image == image;
+  }
+
+  @override
+  int get hashCode => name.hashCode ^ image.hashCode;
+
+
 }

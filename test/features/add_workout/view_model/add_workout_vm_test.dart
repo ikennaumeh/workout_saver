@@ -1,5 +1,3 @@
-
-
 import 'package:mocktail/mocktail.dart';
 import 'package:stacked_services/stacked_services.dart';
 import 'package:workout_task/core/app/app.locator.dart';
@@ -43,10 +41,9 @@ void main(){
 
 
 
-    // test("workout list are prefilled with list of workouts", () {
-    //
-    //   expect(sut.workoutPrograms, workoutPrograms);
-    // });
+    test("workout list are prefilled with list of workouts", () {
+      expect(sut.workoutPrograms, workoutPrograms);
+    });
 
     group("add to database", () {
       test("adds to db in service api", () async {
