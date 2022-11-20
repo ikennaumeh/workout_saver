@@ -14,7 +14,7 @@ flutter pub run build_runner build --delete-conflicting-outputs
 
 ## App Architecture and Folder Structure
 
-The code of the app implements clean architecture to separate the UI, domain and data layers with a feature-first approach for folder structure.
+The code of the app implements clean architecture to separate the UI, domain and data layers with a feature-first approach for folder structure, implementing the MVVM architectural pattern.
 
 #### Folder Structure
 
