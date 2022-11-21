@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Magic Workout',
+      title: 'Magic Test',
       theme: ThemeData(
           scaffoldBackgroundColor: Palette.white,
           appBarTheme: AppBarTheme(

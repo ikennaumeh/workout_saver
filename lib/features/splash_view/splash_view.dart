@@ -30,7 +30,7 @@ class _SplashViewState extends State<SplashView> {
       backgroundColor: Palette.lightBlue,
       body: Center(
         child: Text(
-          "Magic Workouts",
+          "Magic Workout",
           style: TextStyle(
             fontWeight: FontWeight.w600,
             fontSize: SizeMg.text(30),

@@ -7,6 +7,7 @@ import 'package:workout_task/core/services/service_api.dart';
 import 'package:workout_task/core/services/stream_service.dart';
 import 'package:workout_task/features/home/view_model/home_view_model.dart';
 import '../../../helpers/helper_classes.dart';
+import '../../../helpers/helper_variables.dart';
 
 
 void main(){
@@ -27,16 +28,6 @@ void main(){
     locator.registerSingleton<ServiceApi>(mockServiceApi);
     locator.registerSingleton<NavigationService>(mockNavService);
 
-    final workoutsFromService = [
-      WorkOut(id: 1, name: "Workout 1", weight: "1", sets: "1", repetition: "1"),
-      WorkOut(id: 2, name: "Workout 2", weight: "2", sets: "2", repetition: "2"),
-      WorkOut(id: 3, name: "Workout 3", weight: "3", sets: "3", repetition: "3"),
-
-    ];
-
-    final workout = WorkOut(id: 1, name: "Workout 1", weight: "1", sets: "1", repetition: "1");
-
-    final serviceEvent = ServiceEventStream<ServiceEvent>();
 
 
     void serviceApiReturns3Workouts(){

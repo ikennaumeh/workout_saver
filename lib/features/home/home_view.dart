@@ -30,7 +30,6 @@ class _HomeViewState extends State<HomeView> {
       appBar: AppBar(
         title: Text(
           "Workout List View",
-          key: const Key("id-key"),
           style: TextStyle(
             fontSize: SizeMg.text(20),
             fontWeight: FontWeight.w600,
@@ -45,7 +44,9 @@ class _HomeViewState extends State<HomeView> {
 
           ///empty state
           if(model.workoutList.isEmpty){
-            return Center(child: Text(
+            return Center(
+              key: const Key('id-key'),
+              child: Text(
               "You haven't done any workout at this \ntime. Tap the add button to track\n a new workout.",
               textAlign: TextAlign.center,
               style: TextStyle(
@@ -120,6 +121,12 @@ class _HomeViewState extends State<HomeView> {
         child: const Icon(Icons.add),
       ),
     );
+  }
+
+  @override
+  void dispose() {
+    _model.disposeState();
+    super.dispose();
   }
 }
 

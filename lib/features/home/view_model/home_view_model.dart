@@ -39,4 +39,8 @@ class HomeViewModel extends BaseViewModel{
     _navigationService.navigateToAddWorkoutView(workOut: workOut, status: status);
   }
 
+  void disposeState(){
+    subscription?.cancel();
+  }
+
 }
