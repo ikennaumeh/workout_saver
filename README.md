@@ -129,3 +129,6 @@ or group and test with:
 - [Sqflite](https://pub.dev/packages/sqflite): Used to create and implementing database.
 - [Flutter screen utils](https://pub.dev/packages/flutter_screenutil): For adapting to different screen and font sizes to look good on different mobile screens.
 - [Mocktail](https://pub.dev/packages/mocktail): Used to create mocks.
+
+
+## PS: Much thought wasn't given to UI and design. 
