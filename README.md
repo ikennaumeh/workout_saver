@@ -3,7 +3,7 @@
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
 
 
-A flutter test app giving by the Magic team to track and record user workouts.
+A flutter app to track and record user workouts.
 
 ## Running the App
 To run the app, you should fetch all dependencies and run the build_runner   
